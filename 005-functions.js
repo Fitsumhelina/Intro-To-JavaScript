@@ -4,7 +4,7 @@ function greet(name) {
   console.log('Hello, ' + name + '!');
 }
 
-greet('fitse'); // Output: Hello, Daggy!
+greet('fitse'); // Output: Hello, fitse!
 
 // Function with Parameters and Return Value
 function add(a, b) {

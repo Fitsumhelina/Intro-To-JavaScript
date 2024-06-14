@@ -15,7 +15,7 @@ const person1 = {
 const person2 = {
     firstName: "fitsum",
     lastName: "helina",
-    age: 42,
+    age: 20,
     isEmployed: false,
     sayHello: () => console.log("Hey, I'm fitsum..."),
     eat: () => console.log("I am eating roast beef, chicken, and pizza"),
@@ -28,3 +28,6 @@ person1.sayHello();
 person1.eat();
 person2.sayHello();
 person2.eat();
+
+const animal =(name)=>{console.log(name)}
+animal("cat")

@@ -74,7 +74,7 @@ let result = functionName(argument1, argument2);
 let numbers = [1, 2, 3, 4, 5];
 numbers.push(6);         // Adds element to end
 numbers.pop();           // Removes element from end
-numbers.length;          // Length of array
+console.log(numbers.length);          // Length of array
 
 // Object properties
 let person = {
@@ -123,8 +123,8 @@ let lastChar = message[message.length - 1];  // '!'
 
 // Concatenation
 let greeting = "Hello";
-let name = "Alice";
-let fullGreeting = greeting + ", " + name + "!";  // "Hello, Alice!"
+let name = "fitsum";
+let fullGreeting = greeting + ", " + name + "!";  // "Hello, fitsum!"
 
 // String methods
 let uppercaseMessage = message.toUpperCase();   // "HELLO, WORLD!"
@@ -192,7 +192,7 @@ while (count < 5) {
 }
 
 // forEach loop (for arrays)
-let numbers = [1, 2, 3, 4, 5];
+let number = [1, 2, 3, 4, 5];
 numbers.forEach(function(number) {
   console.log(number);
 });
